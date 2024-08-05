@@ -91,6 +91,7 @@ nav ul{
     position: absolute;
     top: 281px;
     right: 100px;
+    z-index: 10;
 }
 .orange-divider{
     position: relative;
@@ -119,7 +120,7 @@ nav ul{
     border-radius: 25px;
     background-color: white;
     position: relative;
-    z-index: 9;
+    z-index:10;
     display: flex;
 }
 .main-form .column{
@@ -135,4 +136,16 @@ nav ul{
 .explore{
     margin-top: 70px;
     color: #4c5366;
+}
+.bg-container{
+    width: 89.5%;
+    height: 900px;
+    background-color: white;
+    position: absolute;
+}
+.planet {
+    position: relative;
+    box-shadow: 25px -25px 55px 0 rgba(160,117,158,.47);
+    border-left: 1px solid #e0e0e0;
+    padding-top: 100px;
 }
