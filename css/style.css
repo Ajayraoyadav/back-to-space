@@ -149,3 +149,41 @@ nav ul{
     border-left: 1px solid #e0e0e0;
     padding-top: 100px;
 }
+.planet h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: "Anton", sans-serif;
+}
+.tabs-menu{
+    display: flex;
+}
+.Themoon{
+    width: 120px;
+    height: 130px;
+    display:block;
+    background-image: url(../images/Moon-optimize.gif);
+    background-position:  0 50%;
+}
+.jupiter{
+    width: 120px;
+    height: 130px;
+    display:block;
+    background-image: url(../images/Jupiter-optimize.gif);
+    background-position:  0 50%;
+}
+.mars{
+    width: 120px;
+    height: 130px;
+    display:block;
+    background-image: url(../images/Mars-optimize.gif);
+    background-position:  0 50%;
+}
+.saturn{
+    width: 120px;
+    height: 130px;
+    display:block;
+    background-image: url(../images/saturn-optimize.gif);
+    background-position:  0 50%;
+}
