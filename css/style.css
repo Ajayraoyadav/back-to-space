@@ -245,8 +245,23 @@ h4{
 }
 .destination-image{
     width: 80%;
+    height: 620px;
 }
 .dinner,.living-room,.image{
     width: 50%;
     float: left;
+}
+.center{
+    margin: 0 auto;
+    text-align: center;
+}
+.flexed-destination{
+    padding: 0 100px;
+    margin-top: 25px;
+}
+.flexed-destination h4{
+    font-size: 58px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
 }
