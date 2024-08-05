@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+/* small nav css start */
+.small-nav {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1c2e46;
+    background-color: rgba(28, 46, 70, .65);
+    color: #5b769b;
+}
+
+.inner-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.right-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+/* small nav css end */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border-left: 1px solid #1c2e46;
+    padding-left: 100px;
+   
+}
+
+/* hero section css start */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    list-style: none;
+    opacity: 0.75;
+}
+.main-txt{
+    padding: 25px 0;
+    width: auto;
+}
+.main-txt img{
+    width: 750px;
+    margin-left: -125px;
+}
+.moon{
+    position: absolute;
+    top: 10vw;
+    right: 5vw;
+    z-index: -11;
+    width: 50%;
+    max-width: 600px;
+}
+.astronaut{
+    position: absolute;
+    top: 281px;
+    right: 100px;
+}
