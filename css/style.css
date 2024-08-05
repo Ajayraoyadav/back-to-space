@@ -139,13 +139,14 @@ nav ul{
 }
 .bg-container{
     width: 89.5%;
-    height: 900px;
+    height: 950px;
     background-color: white;
+    box-shadow: 25px -25px 55px 0 rgba(160,117,158,.47);
     position: absolute;
 }
 .planet {
     position: relative;
-    box-shadow: 25px -25px 55px 0 rgba(160,117,158,.47);
+   
     border-left: 1px solid #e0e0e0;
     padding-top: 100px;
 }
@@ -158,6 +159,7 @@ nav ul{
 }
 .tabs-menu{
     display: flex;
+    position: relative;
 }
 .Themoon{
     width: 120px;
@@ -186,4 +188,65 @@ nav ul{
     display:block;
     background-image: url(../images/saturn-optimize.gif);
     background-position:  0 50%;
+}
+.planet-description{
+    position: absolute;
+    bottom: -66px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.planet-price{
+    margin-top: 5px;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 300
+}
+.tab-pane{
+    padding-top: 85px;
+    padding-bottom: 0;
+}
+.moonContent h3{
+    font-family: Anton, sans-serif;
+    color: #ededef;
+    font-size: 320px;
+    line-height: 1em;
+    font-weight: 400;
+    margin-left: -100px;
+}
+.destination-heading {
+    position: relative;
+    z-index: 2;
+    margin-top: -145px;
+}
+h4{
+    margin-bottom: 0;
+    font-family: Anton, sans-serif;
+    font-size: 78px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.destination_sub-heading{
+    margin-top: 10px;
+    font-family: Anton, sans-serif;
+    color: #000;
+    font-size: 34px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.destination__description{
+    max-width: 80%;
+    margin-top: 20px;
+    color: rgba(28, 46, 70, .65);
+    font-size: 15px;
+    line-height: 1.7em;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+.destination-image{
+    width: 80%;
+}
+.dinner,.living-room,.image{
+    width: 50%;
+    float: left;
 }
