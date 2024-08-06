@@ -13,3 +13,7 @@ document.getElementById('increase').addEventListener('click', function() {
         quantity.value = currentValue + parseInt(quantity.step);
     }
 });
+
+document.querySelector(".form-heading-getStarted").addEventListener("click",function(){
+    alert("Hlo Moon");
+})
