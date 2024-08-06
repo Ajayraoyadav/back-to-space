@@ -79,18 +79,39 @@
             <div class="main-form">
                 <div class="Destination column">
                     <div class="form-heading">Destination</div>
+                    <select id="planets" name="planets">
+                        <option value="moon">MOON</option>
+                        <option value="mars">MARS</option>
+                        <option value="jupiter">JUPITER</option>
+                        <option value="saturn">SATURN</option>
+                    </select>
                 </div>
                 <div class="Departure column">
                     <div class="form-heading">Departure</div>
+                    <select id="JFK" name="JFK">
+                        <option value="JFK">JFK</option>
+                        <option value="SFO">SFO</option>
+                        <option value="MCO">MCO</option>
+                    </select>
                 </div>
                 <div class="Voyage-Dates column">
                     <div class="form-heading">VoyageDates</div>
+                    <select id="VoyageDates" name="VoyageDates">
+                        <option value="MARCH 2018">MARCH 2018</option>
+                        <option value="APRIL 2018">APRIL 2018</option>
+                        <option value="MAY 2018">MAY 2018</option>
+                    </select>
                 </div>
                 <div class="Passengers column">
                     <div class="form-heading">Passengers</div>
+                    <div class="number-input">
+                        <button id="decrease">-</button>
+                        <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" value="0">
+                        <button id="increase">+</button>
+                    </div>
                 </div>
-                <div class="get-started column">
-                    <div class="form-heading">get started</div>
+                <div class="get-started column" style="background: red; border-radius: 0 25px 25px 0; color: white;">
+                    <div class="form-heading-getStarted">GET STARTED&nbsp;&nbsp;&nbsp;></div>
                 </div>
             </div>
         </div>
@@ -176,3 +197,4 @@
 </body>
 
 </html>
+<script src="./index.js"></script>
