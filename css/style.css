@@ -168,6 +168,7 @@ nav ul{
     display:block;
     background-image: url(../images/Moon-optimize.gif);
     background-position:  0 50%;
+    border: none;
 }
 .jupiter{
     width: 120px;
@@ -175,6 +176,7 @@ nav ul{
     display:block;
     background-image: url(../images/Jupiter-optimize.gif);
     background-position:  0 50%;
+    border: none;
 }
 .mars{
     width: 120px;
@@ -182,6 +184,7 @@ nav ul{
     display:block;
     background-image: url(../images/Mars-optimize.gif);
     background-position:  0 50%;
+    border: none;
 }
 .saturn{
     width: 120px;
@@ -189,6 +192,7 @@ nav ul{
     display:block;
     background-image: url(../images/saturn-optimize.gif);
     background-position:  0 50%;
+    border: none;
 }
 .planet-description{
     position: absolute;
@@ -377,9 +381,9 @@ h4{
     display: none;
    }
 
-   .active{
+.active , #activealll:hover{
     background-position: 50% 50%;
     background-size: cover;
     border-bottom: 5px solid orangered;
     transform: scale(1.1);
-   }
+}

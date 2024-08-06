@@ -63,3 +63,13 @@ btn_saturn.addEventListener("click",()=>{
     jupiter.style.display="none";
     saturn.style.display="block";
 })
+
+
+var buttons = document.querySelector("#activealll");
+
+buttons.forEach(button=>{
+    button.addEventListener("click",function(){
+        buttons.forEach(btn=>btn.classList.remove("active"));
+        this.classList.add("active")
+    })
+})
