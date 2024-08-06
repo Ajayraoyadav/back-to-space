@@ -160,6 +160,7 @@ nav ul{
 .tabs-menu{
     display: flex;
     position: relative;
+    z-index: 12;
 }
 .Themoon{
     width: 120px;
@@ -369,3 +370,16 @@ h4{
 .tabs-content-mars{
     display: none;
 }
+.tabs-content-jupiter{
+ display: none;
+}
+.tabs-content-saturn{
+    display: none;
+   }
+
+   .active{
+    background-position: 50% 50%;
+    background-size: cover;
+    border-bottom: 5px solid orangered;
+    transform: scale(1.1);
+   }
