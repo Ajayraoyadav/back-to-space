@@ -302,3 +302,38 @@ h4{
     cursor: pointer;
     text-align: center;
 }
+
+.flexed-destination{
+    padding: 0 100px;
+    margin-top: 25px;
+}
+.flexed-destination h4{
+    font-size: 58px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+}
+.row-1{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.tour ,.space{
+    width: 48%;
+    background-color: #0c1524;
+    border-radius: 25px;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 25px 0px;
+    align-items: center;
+}
+.row-1 h6{
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.row-1 p{
+    color: #5b769b;
+}
