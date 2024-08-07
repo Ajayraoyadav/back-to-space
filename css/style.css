@@ -495,3 +495,9 @@ h4{
     left: 216px;
     top: 215px;
 }
+.about h4{
+    color: white;
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
