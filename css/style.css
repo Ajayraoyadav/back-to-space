@@ -141,13 +141,13 @@ nav ul{
     width: 89.5%;
     height: 950px;
     background-color: white;
+    border-left: 1px solid #e0e0e0;
     box-shadow: 25px -25px 55px 0 rgba(160,117,158,.47);
     position: absolute;
 }
 .planet {
     position: relative;
-   
-    border-left: 1px solid #e0e0e0;
+    border-left: 1px solid #1c2e46;
     padding-top: 100px;
 }
 .planet h2{
@@ -386,4 +386,37 @@ h4{
     background-size: cover;
     border-bottom: 5px solid orangered;
     transform: scale(1.1);
+}
+.shape{
+    width: 89.4%;
+    background-color: white;
+    height: 900px;
+    position: absolute;
+    right: 0;
+}
+.ships{
+    padding-top: 100px;
+    position: relative;
+    z-index: 99;
+}
+.flight-over{
+    font-size: 11px;
+    color: #ef480e;
+    font-weight: 500;
+}
+.ships-heading{
+    margin-top: 20px;
+    font-family: Anton, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    line-height: 1em;
+}
+.ships-sub-heading{
+    margin-top: 10px;
+    font-family: Anton, sans-serif;
+    color: #000;
+    font-size: 34px;
+    line-height: 1em;
+    text-transform: uppercase;
 }
