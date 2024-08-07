@@ -420,3 +420,56 @@ h4{
     line-height: 1em;
     text-transform: uppercase;
 }
+.ships h3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ededef;
+    font-size: 320px;
+    font-weight: 400;
+    font-family: Anton, sans-serif;
+    line-height: 1em;
+    margin-top: 20px;
+    z-index: -1;
+}
+.ships-rows{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ships-rows> div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px dashed hsla(0, 0%, 70%, .65);
+    position: absolute;
+    z-index: 0;
+}
+.circle-2{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border: 1px dashed hsla(0, 0%, 70%, .65);
+    position: absolute;
+    z-index: 0;
+}
+.circle-3{
+    width: 270px;
+    height:270px;
+    border-radius: 50%;
+    border: 1px dashed hsla(0, 0%, 70%, .65);
+    position: absolute;
+    z-index: 0;
+}
+.hours{
+    width: 100px;
+    height: 30px;
+    border-bottom: 1px dashed hsla(0, 0%, 70%, .65);
+    color: rgba(84, 87, 92, .65);
+}
