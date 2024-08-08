@@ -163,7 +163,7 @@
         </div>
         <div class="tabs-content-moon">
             <div class="moonContent tab-pane">
-                <h3>MOON</h3>
+                <h3 class="intro__title">MOON</h3>
                 <div class="destination-heading">
                     <h4 class="heading-3">THE MOON!</h4>
                     <div class="destination_sub-heading">More than just a destination</div>
@@ -439,7 +439,6 @@
                     <button class="bnow">BOOK NOW</button>
                     <button class="all-desti">ALL DESTINATION</button>
                 </div>
-
             </div>
         </div>
     </section>
@@ -448,7 +447,7 @@
     <!-- ships section start -->
     <div class="shape"></div>
     <section class="container ships">
-        <h3>SHIPS</h3>
+        <h3 class="ship-head">SHIPS</h3>
         <p class="flight-over">Flight Overview</p>
         <h2 class="ships-heading">THE FLIGHT</h2>
         <p class="ships-sub-heading">What to expect onboard</p>
@@ -495,9 +494,35 @@
             <div class="second-line"></div>
         </div>
         <h4 class="center">WHY GO WITH SPACED</h4>
+        <h1>Heelo
+
+        </h1>
+        
     </section>
   <!-- About section end -->
-</body>
 
+
+  <script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script>
+
+gsap.to('h3', {
+x: 99, 
+scrollTrigger: {
+  trigger: 'h3',
+  scrub: 1,
+}
+});
+
+gsap.to('.ship-head', {
+x: -172, 
+scrollTrigger: {
+  trigger: '.ship-head',
+  scrub: 1,
+}
+});
+
+  </script>
+</body>
 </html>
 <script src="./index.js"></script>
