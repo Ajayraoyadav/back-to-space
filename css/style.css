@@ -541,5 +541,23 @@ h4{
     min-height: 140px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    background-image: url(../images/quote.svg);
+    background-position: 96% 22px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+.stars {
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    color: #5b769b;
+}
+.activity-sub-heading {
+    margin-bottom: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.activity-pill p{
+    color: #5b769b;
 }
