@@ -70,10 +70,10 @@
             <div class="third-line"></div>
         </div>
         <div class="moon">
-            <img src="images/moon 2.png" width="600" />
+            <img src="images/moon 2.png" data-speed="1" width="600"  class="layer" />
         </div>
         <div class="astronaut">
-            <img src="images/astronaut-resized.png" />
+            <img src="images/astronaut-resized.png" data-speed="1" class="layer" />
         </div>
         <div class="main-txt">
             <img src="images/headline.png" />
@@ -595,10 +595,27 @@
                 scrub: 1,
             }
         });
-
+        gsap.to('.activity-pill', {
+            scale: 1,
+            duration: 1,
+            scrollTrigger: {
+                trigger: '.activity-pill',
+                scrub: 1,
+            }
+        });
+        document.addEventListener("mousemove", parallax);
+    
+    function parallax(e){
+      this.querySelectorAll(".layer").forEach(layer=>{
+        const speed = layer.getAttribute("data-speed");
+        
+        const x = (window.innerWidth - e.pageX*speed)/150;
+        const y = (window.innerHeight - e.pageY*speed)/150;
+        
+        layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+      })
+    }
     </script>
-
-
 </body>
 
 </html>
