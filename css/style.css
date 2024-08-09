@@ -561,3 +561,16 @@ h4{
 .activity-pill p{
     color: #5b769b;
 }
+
+.spacechallenge-img{
+    margin: auto;
+    width: 80%;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.colume_img img{
+    margin-top: 20px;
+}
