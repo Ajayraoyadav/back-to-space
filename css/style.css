@@ -534,3 +534,12 @@ h4{
     color: #5b769b;
     letter-spacing: 1px;
 }
+.activity-pill{
+    border-radius: 25px;
+    background-color: #0c1524;
+    padding: 10px 15px;
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
