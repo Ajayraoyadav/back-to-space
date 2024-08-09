@@ -480,55 +480,68 @@
             </div>
         </div>
         <div class="ship-images">
-           
-            <img width="426" class="baby-cropped" src="images/baby-cropped.jpg"/>
-            <img width="426" class="space-quarters" src="images/space-quarters.jpg"/>
-            <img width="655" class="cutout" src="images/Cutout-image.png"/>
+
+            <img width="426" class="baby-cropped" src="images/baby-cropped.jpg" />
+            <img width="426" class="space-quarters" src="images/space-quarters.jpg" />
+            <img width="655" class="cutout" src="images/Cutout-image.png" />
         </div>
     </section>
     <!-- ships section end -->
 
-     <!-- About section start -->
+    <!-- About section start -->
     <section class="container about">
         <div class="orange-divider center">
             <div class="second-line"></div>
         </div>
-        <h4 class="center">WHY GO WITH SPACED</h4>   
+        <h4 class="center">WHY GO WITH SPACED</h4>
         <div class="about-flex">
             <div class="image">
-                <img src="images/waldo.jpg"/>
+                <img src="images/waldo.jpg" />
                 <div class="bottom-slide">
-                   <div class="name">Waldo Broodryk</div>
-                   <div class="title">Web Designer</div>
+                    <div class="name">Waldo Broodryk</div>
+                    <div class="title">Web Designer</div>
+                </div>
+            </div>
+            <div>
+                <div class="activity-pill">
+                     <img src="images/musk.png"/>
+                     <div>
+                        <div class="stars">★★★★★</div>
+                        <div class="activity-sub-heading">Stellar Experience!</div>
+                        <p>“ I had an X-tremely good time on mars.”</p>
+                        <p class="paragraph">Elon Musk</p>
+                     </div>
+                     
                 </div>
             </div>
 
         </div>
     </section>
-  <!-- About section end -->
+    <!-- About section end -->
 
 
-  <script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-  <script>
+    <script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script>
 
-gsap.to('h3', {
-x: 99, 
-scrollTrigger: {
-  trigger: 'h3',
-  scrub: 1,
-}
-});
+        gsap.to('h3', {
+            x: 99,
+            scrollTrigger: {
+                trigger: 'h3',
+                scrub: 1,
+            }
+        });
 
-gsap.to('.ship-head', {
-x: -172, 
-scrollTrigger: {
-  trigger: '.ship-head',
-  scrub: 1,
-}
-});
+        gsap.to('.ship-head', {
+            x: -172,
+            scrollTrigger: {
+                trigger: '.ship-head',
+                scrub: 1,
+            }
+        });
 
-  </script>
+    </script>
 </body>
+
 </html>
 <script src="./index.js"></script>
