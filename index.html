@@ -56,10 +56,10 @@
             </div>
             <nav>
                 <ul>
-                    <li>DESTINATIONS</li>
-                    <li>SHIPS</li>
-                    <li>ABOUT</li>
-                    <li>FAQ'S</li>
+                    <li><a href="#destination">DESTINATIONS</a></li>
+                    <li><a href="#">SHIPS</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#about">FAQ'S</a></li>
                     <li><button>BOOK</button></li>
                 </ul>
             </nav>
@@ -70,7 +70,7 @@
             <div class="third-line"></div>
         </div>
         <div class="moon">
-            <img src="images/moon 2.png" data-speed="1" width="600"  class="layer" />
+            <img src="images/moon 2.png" data-speed="1" width="600" class="layer" />
         </div>
         <div class="astronaut">
             <img src="images/astronaut-resized.png" data-speed="1" class="layer" />
@@ -130,7 +130,7 @@
     <div class="bg-container">
 
     </div>
-    <section class="container planet">
+    <section class="container planet" id="destination">
         <div class="orange-divider">
             <div class="second-line"></div>
         </div>
@@ -489,7 +489,7 @@
     <!-- ships section end -->
 
     <!-- About section start -->
-    <section class="container about">
+    <section class="container about" id="about">
         <div class="orange-divider center">
             <div class="second-line"></div>
         </div>
@@ -502,7 +502,7 @@
                     <div class="title">Web Designer</div>
                 </div>
             </div>
-            <div style="display: flex; flex-direction: column; justify-content: space-between;"> 
+            <div style="display: flex; flex-direction: column; justify-content: space-between;">
                 <div class="activity-pill">
                     <img src="images/musk.png" />
                     <div style="padding: 10px 30px;">
@@ -537,41 +537,41 @@
 
         </div>
 
-    <div class="footer-main">
-        <div class="last-footer">
-            <div class="space-challenge">
-                <div class="orange-divider center">
-                    <div class="second-line"></div>
+        <div class="footer-main">
+            <div class="last-footer">
+                <div class="space-challenge">
+                    <div class="orange-divider center">
+                        <div class="second-line"></div>
+                    </div>
+                    <h4 class="center" style="color: white; margin-top: 30px;">#SPACEDCHALLENGE</h4>
                 </div>
-                <h4 class="center" style="color: white; margin-top: 30px;">#SPACEDCHALLENGE</h4>
+                <div class="spacechallenge-img">
+                    <img src="./images/img_1.jpg" alt="">
+                    <img src="./images/img_2.jpg" alt="">
+                    <div class="colume_img">
+                        <img src="./images/img_3.jpg" alt="">
+                        <img src="./images/img_4.jpg" alt="">
+                    </div>
+                    <div class="colume_img">
+                        <img src="./images/img_5.jpg" alt="">
+                        <img src="./images/img_6.jpg" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="spacechallenge-img">
-                <img src="./images/img_1.jpg" alt="">
-                <img src="./images/img_2.jpg" alt="">
-                <div class="colume_img">
-                    <img src="./images/img_3.jpg" alt="">
-                    <img src="./images/img_4.jpg" alt="">
-                </div>
-                <div class="colume_img">
-                    <img src="./images/img_5.jpg" alt="">
-                    <img src="./images/img_6.jpg" alt="">
-                </div>
+            <div class="logo_footer">
+                <img src="./images/logo_footer.jpg" alt="">
+            </div>
+            <div class="footer">
+                <ul>
+                    <li>DESTINATIONS</li>
+                    <li>SHIPS</li>
+                    <li>ABOUT</li>
+                    <li>FAQ'S</li>
+                    <li>ACCOUNTS</li>
+                    <li>STORE</li>
+                </ul>
             </div>
         </div>
-        <div class="logo_footer">
-            <img src="./images/logo_footer.jpg" alt="">
-        </div>
-    <div class="footer">
-        <ul>
-            <li>DESTINATIONS</li>
-            <li>SHIPS</li>
-            <li>ABOUT</li>
-            <li>FAQ'S</li>
-            <li>ACCOUNTS</li>
-            <li>STORE</li>
-        </ul>
-    </div>
-    </div>
     </section>
     <!-- About section end -->
 
@@ -604,17 +604,17 @@
             }
         });
         document.addEventListener("mousemove", parallax);
-    
-    function parallax(e){
-      this.querySelectorAll(".layer").forEach(layer=>{
-        const speed = layer.getAttribute("data-speed");
-        
-        const x = (window.innerWidth - e.pageX*speed)/150;
-        const y = (window.innerHeight - e.pageY*speed)/150;
-        
-        layer.style.transform = `translateX(${x}px) translateY(${y}px)`
-      })
-    }
+
+        function parallax(e) {
+            this.querySelectorAll(".layer").forEach(layer => {
+                const speed = layer.getAttribute("data-speed");
+
+                const x = (window.innerWidth - e.pageX * speed) / 150;
+                const y = (window.innerHeight - e.pageY * speed) / 150;
+
+                layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+            })
+        }
     </script>
 </body>
 
