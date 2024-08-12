@@ -65,14 +65,10 @@ btn_saturn.addEventListener("click",()=>{
 })
 
 
-var buttons = document.querySelector("#activealll");
-
-buttons.forEach(button=>{
-    button.addEventListener("click",function(){
-        buttons.forEach(btn=>btn.classList.remove("active"));
-        this.classList.add("active")
-    })
-})
 
 
 // login page
+var Submit = document.querySelector(".submit_form");
+Submit.addEventListener("click",function(){
+    window.location.href = "./index.html";
+})
