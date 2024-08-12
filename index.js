@@ -76,27 +76,3 @@ buttons.forEach(button=>{
 
 
 // login page
-
-const signUpBtn = document.getElementById("signUpBtn");
-const signInBtn = document.getElementById("signInBtn");
-const nameField = document.getElementById("nameField");
-const title = document.getElementById("title");
-const email = document.getElementById("form-input");
-const submit = document.querySelector(".submit");
-
-
-signInBtn.onclick = function (){
- nameField.style.maxHeight = "0";
- title.innerHTML="Sign In";
- signUpBtn.classList.add("disable");
- signInBtn.classList.remove("disable");
- email.reset();
- submit.style.display="block"
-}
-signUpBtn.onclick = function (){
- nameField.style.maxHeight = "60px";
- title.innerHTML="Sign Up";
- signUpBtn.classList.remove("disable");
- signInBtn.classList.add("disable");
- submit.style.display="none";
-}
