@@ -11,7 +11,13 @@ body {
     font-size: 14px;
     overflow-x: hidden;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color: #5b769b;
+    text-decoration: none;
+}
 /* small nav css start */
 .small-nav {
     width: 100%;
