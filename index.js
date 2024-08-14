@@ -63,12 +63,3 @@ btn_saturn.addEventListener("click",()=>{
     jupiter.style.display="none";
     saturn.style.display="block";
 })
-
-
-
-
-// login page
-var Submit = document.querySelector(".submit_form");
-Submit.addEventListener("click",function(){
-    window.location.href = "./index.html";
-})
