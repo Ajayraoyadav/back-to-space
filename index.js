@@ -32,6 +32,10 @@ btn_moon.addEventListener("click",()=>{
     mars.style.display="none";
     jupiter.style.display="none";
     saturn.style.display="none";
+    btn_mars.classList.remove("active")
+    btn_moon.classList.add("active")
+    btn_jupiter.classList.remove("active")
+    btn_mars.classList.remove("active")
 
 })
 
@@ -41,6 +45,11 @@ btn_mars.addEventListener("click",()=>{
     mars.style.display="block";
     jupiter.style.display="none";
     saturn.style.display="none";
+    btn_mars.classList.add("active");
+    btn_moon.classList.remove("active");
+    btn_saturn.classList.remove("active");
+    btn_jupiter.classList.remove("active");
+  
 })
 
 
@@ -49,10 +58,18 @@ btn_jupiter.addEventListener("click",()=>{
     mars.style.display="none";
     jupiter.style.display="block";
     saturn.style.display="none";
+    btn_jupiter.classList.add("active");
+    btn_moon.classList.remove("active");
+    btn_mars.classList.remove("active");
+    btn_saturn.classList.remove("active");
 })
 btn_saturn.addEventListener("click",()=>{
     the_moon.style.display="none";
     mars.style.display="none";
     jupiter.style.display="none";
     saturn.style.display="block";
+    btn_jupiter.classList.remove("active");
+    btn_moon.classList.remove("active");
+    btn_mars.classList.remove("active");
+    btn_saturn.classList.add("active");
 })
