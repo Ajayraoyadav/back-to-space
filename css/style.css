@@ -491,6 +491,7 @@ h4{
     position: absolute;
     top: 0;
     right: 0;
+    transform: scaleX(1);
 }
 .space-quarters{
     position: absolute;
