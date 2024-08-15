@@ -63,7 +63,7 @@
                     <li><a href="#">SHIPS</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#about">FAQ'S</a></li>
-                    <li><button>BOOK</button></li>
+                    <li><a href="#popupFrom"><button class="all-desti">BOOK</button></a></li>
                 </ul>
             </nav>
         </header>
@@ -82,7 +82,7 @@
             <img src="images/headline.png" />
         </div>
 
-        <div class="form">
+        <div class="form" id="popupFrom">
             <p>Plan your voyage below</p>
             <div class="main-form">
                 <div class="Destination column">
@@ -118,9 +118,9 @@
                         <button id="increase">+</button>
                     </div>
                 </div>
-                <a href="#divOne">
+                <a href="#popup">
                     <div class="get-started column"
-                        style="    background: rgb(240, 56, 56);
+                        style="background: rgb(240, 56, 56);
                         border-radius: 0 25px 25px 0;
                         width: 240px;
                         height: 90px;
@@ -601,6 +601,16 @@
                         <input type="submit" value="Submit" class="submit_form">
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay pop" id="popup">
+        <div class="wrapper bgcolor">
+            <h3 class="modal__heading">404 Voyage Not Found</h3><a class="close" href="#">&times;</a>
+            <div class="content">
+                <p style="padding-top: 5px;">If you enjoyed it, please share by clicking the button below! <span>😄🚀✨</span></p>
+                <button class="share"><a href="#">SHARE THIS PAGE</a></button>
             </div>
         </div>
     </div>
