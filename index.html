@@ -641,6 +641,28 @@
                 scrub: 1,
             }
         });
+        gsap.to('.baby-cropped', {
+            x: -99,
+            scrollTrigger: {
+                trigger: '.baby-cropped',
+                scrub: 1,
+            }
+        });
+        gsap.to('.space-quarters', {
+            x: -99,
+            scrollTrigger: {
+                trigger: '.space-quarters',
+                scrub: 1,
+            }
+        });
+        gsap.to('.cutout', {
+            scalex:1.5,
+            duration: 1,
+            scrollTrigger: {
+                trigger: '.cutout',
+                scrub: 1,
+            }
+        });
         document.addEventListener("mousemove", parallax);
 
         function parallax(e) {
